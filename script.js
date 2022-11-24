@@ -1,3 +1,6 @@
+$('html').imagesLoaded( function() {
+  // images have loaded
+
 const html = document.documentElement;
 const canvas = document.getElementById("image-sequence");
 const context = canvas.getContext("2d");
@@ -65,3 +68,5 @@ icon.onclick = function() {
 //   left: 0, 
 //   behavior: 'smooth',
 // });
+
+});
