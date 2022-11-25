@@ -5,7 +5,7 @@ const html = document.documentElement;
 const canvas = document.getElementById("image-sequence");
 const context = canvas.getContext("2d");
 
-const frameCount = 574;
+const frameCount = 518;
 const currentFrame = index => (
   `./frames/` + '0' + `${index.toString().padStart(4, '0')}.webp`
 )

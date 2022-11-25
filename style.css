@@ -98,22 +98,22 @@ canvas#image-sequence {
 .portfolio-button-link {
   position: fixed;
   display: none;
-  left: 50%;
-  bottom: 42.15%;
+  left: 48%;
+  bottom: 49%;
   transform: translate(-50%, -50%);
   max-width: 1280px;
   text-align: center;
-  font-size: 5em;
+  font-size: 8em;
   font-family: 'Playfair Display', serif;
-  border-bottom: 3px dotted transparent;
+  border-bottom: 8px dotted transparent;
   text-decoration: none;
   z-index: 999;
-  color: #b29881;
+  color: #050303;
   opacity: 0;
 }
 
 .portfolio-button-link:hover {
-  border-bottom: 3px dotted #b29881;
+  border-bottom: 8px dotted #b29881;
 }
 
 .portfolio-hide {

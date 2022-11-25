@@ -1,22 +1,22 @@
 // Animation
 
-gsap.to('#image-sequence', {
-	scrollTrigger: {
-		trigger: ".animation-fade-out",
-		toggleActions: "play none none reverse"
-	},
- 	opacity: 0,
- 	duration: 0.95,
-})
+// gsap.to('#image-sequence', {
+// 	scrollTrigger: {
+// 		trigger: ".animation-fade-out",
+// 		toggleActions: "play none none reverse"
+// 	},
+//  	opacity: 0,
+//  	duration: 0.95,
+// })
 
-gsap.to('.play-button-container', {
-	scrollTrigger: {
-		trigger: ".animation-fade-out",
-		toggleActions: "play none none reverse"
-	},
- 	opacity: 0,
- 	duration: 0.95,
-})
+// gsap.to('.play-button-container', {
+// 	scrollTrigger: {
+// 		trigger: ".animation-fade-out",
+// 		toggleActions: "play none none reverse"
+// 	},
+//  	opacity: 0,
+//  	duration: 0.95,
+// })
 
 // Portfolio
 
@@ -27,9 +27,8 @@ gsap.to('.portfolio-button-link', {
 		toggleClass: {targets: ".portfolio-button-link", className: ".portfolio-hide"}
 
 	},
- 	duration: 2,
- 	opacity: 1,
- 	delay: 1
+ 	duration: 0.5,
+ 	opacity: 1
 })
 
 gsap.to('.portfolio', {
@@ -39,7 +38,7 @@ gsap.to('.portfolio', {
 	},
  	opacity: 1,
  	duration: 2,
- 	delay: 0.10
+ 	delay: 0.5
 })
 
 gsap.to('#container', {
