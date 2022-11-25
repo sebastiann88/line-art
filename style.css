@@ -96,18 +96,18 @@ canvas#image-sequence {
 }
 
 .portfolio-link {
-  padding: 0 5px;
+  display: inline-block;
 }
 
 .portfolio-button-link {
   position: fixed;
   display: none;
   left: 48%;
-  bottom: 49%;
+  bottom: 50%;
   transform: translate(-50%, -50%);
   max-width: 1280px;
   text-align: center;
-  font-size: 8em;
+  font-size: 6vw;
   font-family: 'Playfair Display', serif;
   border-bottom: 8px dotted transparent;
   text-decoration: none;
