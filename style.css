@@ -109,6 +109,7 @@ canvas#image-sequence {
   text-decoration: none;
   z-index: 999;
   color: #050303;
+  padding: 0 5px;
   opacity: 0;
 }
 
