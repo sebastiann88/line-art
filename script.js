@@ -17,8 +17,6 @@ const preloadImages = () => {
   }
 };
 
-preloadImages();
-
 const img = new Image()
 img.src = currentFrame(1);
 canvas.width=1920;
@@ -56,6 +54,8 @@ icon.onclick = function() {
     icon.src = "./media/play.png"
   }
 }
+
+preloadImages();
 
 // Giff
 
