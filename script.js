@@ -17,6 +17,8 @@ const preloadImages = () => {
   }
 };
 
+preloadImages();
+
 const img = new Image()
 img.src = currentFrame(1);
 canvas.width=1920;
@@ -41,8 +43,6 @@ window.addEventListener('scroll', () => {
   
   requestAnimationFrame(() => updateImage(frameIndex + 1))
 });
-
-preloadImages()
 
 const mySong = document.getElementById("mySong");
 const icon = document.getElementById("icon");
